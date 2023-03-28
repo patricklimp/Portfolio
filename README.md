@@ -1,2 +1,2 @@
-# Portifolio
- Minha apresentação e também do meu portifólio.
+# Portfolio
+ Minha apresentação e também do meu portfólio.
