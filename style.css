@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    box-sizing: border-box;
+    color: #F6F6F6;
+    /* height: 100vh; */
+}
+
+strong {
+    color: #26FD22;
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    display: flex;
+    gap: 80px;
+    
+}
+
+.cabecalho__menu__link {
+    text-decoration: none;
+    color: #26FD22;
+}
+
+.apresentacao {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+p {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.subtitulo {
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.redessociais {
+    /* background-color: #26FD22; */
+    width: 380px;
+    border: 2px solid #26FD22;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 8px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+a:hover {
+    background-color: #272727;
+}
+
+.rodape {
+    background-color: #26FD22;
+    color: #000000;
+    padding: 24px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+
+}
